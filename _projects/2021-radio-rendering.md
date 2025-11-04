@@ -13,6 +13,7 @@ I have always been interested in designing and creating models. Starting with le
 One of my dad's dreams is to sail around the world, and so for his birthday, I made him a small wooden sailboat.
 
 ![Shaded rendering of earlier version]({{ "/assets/images/SailboatSide.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+
 ![Shaded rendering of earlier version]({{ "/assets/images/SailboatSide2.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
 
 More recently, I have applied these design and assembly skills to the more functional material of wood. I have been creating projects that not only serve an aesthetic purpose, but that I also use in my day to day life. I made a wooden table using machines, as well as a small bookshelf using handtools and dovetail joinery. 
@@ -26,7 +27,7 @@ We used mortise and tenon joinery for the legs, which had a very small margin of
 
 After the table was assembled, I then researched finishes, and decided on a mixture of Tung Oil and Spar Varnish. The cherry wood darkened beatifully, and I ended up with a lovely bedside table that is in my room at home.
 
-![The front of the table]({{ "/assets/images/TableFront.jpg" | relative_url }}){: .inline-image-l}
+![The front of the table]({{ "/assets/images/TableFinish.jpg" | relative_url }}){: .inline-image-l}
 
 ![The top of the table]({{ "/assets/images/TableTop.jpg" | relative_url }}){: .inline-image-l}
 
