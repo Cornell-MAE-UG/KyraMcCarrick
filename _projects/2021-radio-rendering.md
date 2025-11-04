@@ -1,12 +1,12 @@
 ---
 layout: project
-title: Assorted Creative Projects
+title: Creative Projects
 description: 
 technologies: [Woodshop Tools]
 image: /assets/images/TableFront.jpg
 ---
 
-I have always been interested in designing and creating models. Starting with legos, followed by metal or wood sculpture kits, I learned to follow increasingly complicated assembly instructions. Before long, I began designing my own models, using cardboard as a medium.
+I have always been interested in designing and creating models. Starting with legos, followed by metal or wood sculpture kits, I learned to follow increasingly complicated assembly instructions. Before long, I began designing my own models, using cardboard as a medium. Shown is a camera that I made.
 
 ![Shaded rendering of earlier version]({{ "/assets/images/CardboardCamera.png" | relative_url }}){: .inline-image-r style="width: 200px"}
 
@@ -28,8 +28,6 @@ We used mortise and tenon joinery for the legs, which had a very small margin of
 After the table was assembled, I then researched finishes, and decided on a mixture of Tung Oil and Spar Varnish. The cherry wood darkened beatifully, and I ended up with a lovely bedside table that is in my room at home.
 
 ![The front of the table]({{ "/assets/images/TableFinish.jpg" | relative_url }}){: .inline-image-l}
-
-![The top of the table]({{ "/assets/images/TableTop.jpg" | relative_url }}){: .inline-image-l}
 
 In the future, I would love to create a full scale bookshelf, to replace the IKEA one I have had since I was seven years old
 

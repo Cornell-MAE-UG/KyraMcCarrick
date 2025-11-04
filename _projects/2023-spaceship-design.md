@@ -1,8 +1,8 @@
 ---
 layout: project
-title: Spaceship Design
-description: Just a spaceship that I designed
-technologies: [SolidWorks, Machining]
+title: Marble Run
+description: A rube-goldberg style marble race track
+technologies: [Laser Cutting]
 image: /assets/images/spaceship-design.jpg
 ---
 
