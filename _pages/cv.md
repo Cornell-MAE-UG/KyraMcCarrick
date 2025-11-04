@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kyra McCarrick - Curriculum Vitae
-permalink: /KyraMcCarrickResume.pdf/
+permalink: /CV.pdf/
 ---
 ## Curriculum Vitae
 
