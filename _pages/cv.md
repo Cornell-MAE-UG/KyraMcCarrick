@@ -1,14 +1,14 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
-permalink: /cv/
+title: Kyra McCarrick - Curriculum Vitae
+permalink: /KyraMcCarrickResume.pdf/
 ---
 ## Curriculum Vitae
 
 [Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
+**Email:** [kam523@cornell.edu](mailto:kam523@cornell.edu) | | | **Phone:** +925 448 6208
 
 ---
 
@@ -20,17 +20,17 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 #### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  GPA: 3.91/4.0 | Graduation: May, 2027
 
-- **[High School Name]**  
+- **The Athenian School**  
   *High School Diploma*  
-  Graduation: [Month, Year]
+  Graduation: [May, 2023]
 
 ---
 
 #### Skills
 - **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
-- **Programming:** Python, MATLAB  
+- **Programming:** Python, MATLAB, Java, R  
 - **Tools:** 3D Printing, Laser Cutting  
 
 ---
