@@ -30,3 +30,5 @@ After the table was assembled, I then researched finishes, and decided on a mixt
 
 ![The top of the table]({{ "/assets/images/TableTop.jpg" | relative_url }}){: .inline-image-l}
 
+In the future, I would love to create a full scale bookshelf, to replace the IKEA one I have had since I was seven years old
+
