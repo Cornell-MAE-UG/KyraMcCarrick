@@ -24,47 +24,53 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 
 - **The Athenian School**  
   *High School Diploma*  
-  Graduation: [May, 2023]
+  Graduation: May, 2023
 
 ---
 
 #### Skills
-- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
+- **Software:** Autodesk Fusion 360, ANSYS  
 - **Programming:** Python, MATLAB, Java, R  
-- **Tools:** 3D Printing, Laser Cutting  
+- **Tools:** 3D Printing, Laser Cutting, Band Saw, Chop Saw, Hand Tools  
 
 ---
 
 #### Projects
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
+- **Drop Down Shelf Compact Storage Solution**:  
+  *Collaborated in a 4-person team in the development of a collapsible storage product*  
+  - Used Fusion360 to create a CAD Model + Assembly  
+  - Went through multiple ideation and testing rounds before the final design 
 
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
+- **Mechanical Clock**:  
+  *Designed and prototyped a functioning mechanical pendulum clock*  
+  - Designed clock escapement from scratch
+  - Clock ticked with 95% accuracy  
+
+- **Handmade Table**:  
+  *Use machines, power tools, and hand tools to build and finish a small table*  
+  - Gained proficiency in table saw, band saw, chop saw, planer, and joiner
+  - Learned best practices in finishing wood
 
 ---
 
 #### Work Experience
-- **[Company Name] - Intern**  
-  [Month, Year] - [Month, Year]  
+- **Oakland Strokes - Intern**  
+  June, 2024 - August, 2024
   - Responsibility 1  
   - Responsibility 2  
 
 ---
 
 #### Achievements & Certifications
-- [Certification Name], [Issuing Organization], [Year]  
-- [Achievement Name], [Competition/Event], [Year]  
+- Bozzini Scholarship, Oakland Strokes Inc, 2023  
+- US Rowing Youth National Champion, Steve Hargis Cup, 2023  
 
 ---
 
 #### Extracurricular Activities
-- Member of [Club/Organization Name]  
-- Volunteer for [Event/Organization Name]  
+- Member of Women's Varsity Rowing   
+- Volunteer for Contra Costa Search and rescue
+- Volunteer for Habitat for Humanity
 
 ---
 
