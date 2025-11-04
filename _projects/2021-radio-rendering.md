@@ -8,7 +8,7 @@ image: /assets/images/TableFront.jpg
 
 I have always been interested in designing and creating models. Starting with legos, followed by metal or wood sculpture kits, I learned to follow increasingly complicated assembly instructions. Before long, I began designing my own models, using cardboard as a medium.
 
-![Shaded rendering of earlier version]({{ "/assets/images/CardboardCamera.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Shaded rendering of earlier version]({{ "/assets/images/CardboardCamera.png" | relative_url }}){: .inline-image-r style="width: 200px"}
 
 One of my dad's dreams is to sail around the world, and so for his birthday, I made him a small wooden sailboat.
 
