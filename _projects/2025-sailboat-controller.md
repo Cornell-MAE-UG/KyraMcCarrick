@@ -13,19 +13,19 @@ I was interested in the fluid dynamics of the system. I used Professor Brian Kir
 
 Here is some of my work creating the model: 
 <div style="text-align: center;">
-    <img src="/assets/images/Sailboatwork.png" alt="Calculations" width="600">
+    <img src="/fa25-portfolio-KyraMcCarrick/assets/images/Sailboatwork.png" alt="" width="600">
 </div>
 
 Using the State Space model my group mate, created I used AI and to make a MATLAB Livescript that helped us tune our controller and visualize the corresponding response of the system.
 
 Here are some screenshots of the model:
 <div style="text-align: center;">
-    <img src="{{'/assets/images/ControllerUI.png' | relative_url }}" alt="UI" width="600">
+    <img src="/fa25-portfolio-KyraMcCarrick/assets/images/ControllerUI.png" alt="" width="600">
 </div>
 <div style="text-align: center;">
-    <img src="{{'/assets/images/sailboattrajectory.jpg' | relative_url }}" alt="" width="600">
+    <img src="/fa25-portfolio-KyraMcCarrick/assets/images/sailboattrajectory.jpg" alt="" width="600">
 </div>
 <div style="text-align: center;">
-    <img src="{{'/assets/images/sailboaterror.jpg' | relative_url }}" alt="" width="600">
+    <img src="/fa25-portfolio-KyraMcCarrick/assets/images/sailboaterror.jpg" alt="" width="600">
 </div>
 
