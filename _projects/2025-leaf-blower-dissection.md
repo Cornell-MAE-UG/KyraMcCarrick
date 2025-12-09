@@ -20,7 +20,7 @@ Here is a look at the pump without its outer casing:
 
 Here are my calculations:
 <div style="text-align: center;">
-    <img src="/assets/images/math.jpeg" alt="Pump Analysis Calculations" width="600">
+    <img src="{{ '/assets/images/math.jpeg' | relative_url }}" alt="Pump Analysis Calculations" width="600">
 </div>
 
 
