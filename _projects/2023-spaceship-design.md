@@ -1,13 +1,14 @@
 ---
 layout: project
-title: Marble Run
+title: Leaf Blower Dissection
 description: A rube-goldberg style marble race track
 technologies: [Laser Cutting]
-image: /assets/images/spaceship-design.jpg
+image: /assets/images/Leafblower.jpg
 ---
 
 
-In 2021, NASA asked me to design a spaceship...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+As a part of MAE 3230, Fluid Mechanics, our final project was to dissect an everyday item that uses fluid mechanical devices and make a video about it. My group took apart a leafblower, which consisted of centrifugal pumps, pipes and containers, and a two stroke engine. Our analysis involved conservation of mass, the bernoulli equation, cordier diagrams, the haaland equation, and other pump relations.
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
-
+<div style="text-align: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rddtw6uMNoo?si=FqzfAwyj3HbvEDrm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
