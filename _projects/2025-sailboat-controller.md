@@ -20,12 +20,12 @@ Using the State Space model my group mate, created I used AI and to make a MATLA
 
 Here are some screenshots of the model:
 <div style="text-align: center;">
-    <img src="/assets/images/ControllerUI.png" alt="UI" width="600">
+    <img src="{{'/assets/images/ControllerUI.png' | relative_url }}" alt="UI" width="600">
 </div>
 <div style="text-align: center;">
-    <img src="/assets/images/sailboattrajectory.jpg" alt="" width="600">
+    <img src="{{'/assets/images/sailboattrajectory.jpg' | relative_url }}" alt="" width="600">
 </div>
 <div style="text-align: center;">
-    <img src="/assets/images/sailboaterror.jpg" alt="" width="600">
+    <img src="{{'/assets/images/sailboaterror.jpg' | relative_url }}" alt="" width="600">
 </div>
 

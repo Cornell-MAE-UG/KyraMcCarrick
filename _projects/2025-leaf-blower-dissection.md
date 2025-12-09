@@ -15,7 +15,7 @@ As a part of MAE 3230, Fluid Mechanics, our final project was to dissect an ever
 
 Here is a look at the pump without its outer casing:
 <div style="text-align: center;">
-    <img src="/assets/images/centrifugalpump.jpeg" alt="Centrifugal Pump Impeller + Volute Casing" width="600">
+    <img src="{{'/assets/images/centrifugalpump.jpeg' | relative_url }}" alt="Centrifugal Pump Impeller + Volute Casing" width="600">
 </div>
 
 Here are my calculations:
