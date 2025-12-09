@@ -1,8 +1,8 @@
 ---
 layout: project
 title: Leaf Blower Dissection
-description: A rube-goldberg style marble race track
-technologies: [Laser Cutting]
+description: Fluid mechanics analysis of a leaf blower
+technologies: [Video editing, Fluid mechanics]
 image: /assets/images/Leafblower.jpg
 ---
 
@@ -12,3 +12,16 @@ As a part of MAE 3230, Fluid Mechanics, our final project was to dissect an ever
 <div style="text-align: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/11J76z5qH6c?si=dJjyL5HEkluPkiAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+Here is a look at the pump without its outer casing:
+<div style="text-align: center;">
+    <img src="/assets/images/centrifugalpump.jpeg" alt="Centrifugal Pump Impeller + Volute Casing" width="600">
+</div>
+
+Here are my calculations:
+<div style="text-align: center;">
+    <img src="/assets/images/math.jpeg" alt="Pump Analysis Calculations" width="600">
+</div>
+
+
+
