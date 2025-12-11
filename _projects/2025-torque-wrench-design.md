@@ -1,105 +1,101 @@
 ---
 layout: project
 title: Torque Wrench Design
-description: Design of a torque wrench to meet certain safety requirements
-technologies: [statics, materials science, ANSYS]
-image: /assets/images/torque.jpg
+description: FEA Analysis of a titanium torque wrench using ANSYS.
+technologies: [ANSYS, Materials Science, Statics]
+image: assets/images/3b.png
 ---
 
-<h3>Project Overview</h3>
-<p>
-  This project involved the design and finite element analysis (FEA) of a torque wrench to ensure it met strict safety factor requirements. Using ANSYS, I simulated various load conditions to identify stress concentrations and optimize the material selection.
-</p>
+**MAE 3270**
+**Final Homework Analysis**
+**Maggie Huggins and Kyra McCarrick**
+**12/10/2025**
 
-<div class="project-gallery">
+## 1. Model & Material Properties
 
-  <div class="gallery-item">
-    <img src="/assets/images/CADMeasurements.png" alt="CAD drawing of torque wrench">
-    <p class="caption">1. Initial CAD Drafting & Dimensions</p>
-  </div>
-
-  <div class="gallery-item">
-    <img src="/assets/images/3a.png" alt="ANSYS Displacement Setup">
-    <p class="caption">2. Boundary Conditions & Displacement Setup</p>
-  </div>
-
-  <div class="gallery-item">
-    <img src="/assets/images/3b.png" alt="ANSYS Force Application">
-    <p class="caption">3. Force Application (50 lbf Load)</p>
-  </div>
-
-  <div class="gallery-item">
-    <img src="/assets/images/4a.png" alt="Preliminary Stress Mesh">
-    <p class="caption">4. Preliminary Stress Analysis (Mesh View)</p>
-  </div>
-
-  <div class="gallery-item">
-    <img src="/assets/images/4b.png" alt="Stress Concentration Zoom">
-    <p class="caption">5. Stress Concentration at Fillet (Zoom)</p>
-  </div>
-
-  <div class="gallery-item">
-    <img src="/assets/images/5a.png" alt="Refined Stress Analysis Head">
-    <p class="caption">6. Refined Stress Analysis (Head Detail)</p>
-  </div>
-
-  <div class="gallery-item">
-    <img src="/assets/images/5b.png" alt="Full Bar Stress Distribution">
-    <p class="caption">7. Full Bar Stress Distribution</p>
-  </div>
-
-  <div class="gallery-item">
-    <img src="/assets/images/5c.png" alt="Max Stress Location">
-    <p class="caption">8. Maximum Stress Location Analysis</p>
-  </div>
-
-  <div class="gallery-item">
-    <img src="/assets/images/6Materials.png" alt="Material Optimization Gradient">
-    <p class="caption">9. Material Optimization & Safety Factors</p>
-  </div>
-
-  <div class="gallery-item">
-    <img src="/assets/images/8Materials.png" alt="Strain Gauge Diagram">
-    <p class="caption">10. Strain Gauge Selection & Placement</p>
-  </div>
-
+Image of CAD model:
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+  <img src="{{ site.baseurl }}/assets/images/CADMeasurements.png" alt="CAD Drawing" style="width: 90%; border: 1px solid #ccc;">
 </div>
 
-<style>
-  .project-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 25px;
-    margin-top: 30px;
-    margin-bottom: 40px;
-  }
-  
-  .gallery-item {
-    background: #f9f9f9;
-    padding: 10px;
-    border-radius: 6px;
-    border: 1px solid #eaeaea;
-    transition: transform 0.2s;
-  }
+We used Titanium Alloy, Ti-6Al-4V, annealed which has the following material properties:
 
-  .gallery-item:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-  }
+| Property | Value |
+| :--- | :--- |
+| **Young’s Modulus** | 16x10⁶ psi |
+| **Poisson’s Ratio** | 0.31 |
+| **Tensile Strength** | 125x10³ psi |
+| **Fracture Toughness** | 76.4x10³ psi*in¹/² |
+| **Fatigue Strength** | 52x10³ (for 10⁶ cycles) |
 
-  .gallery-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 4px;
-    display: block;
-  }
+---
 
-  .caption {
-    font-size: 0.85em;
-    color: #666;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 0;
-    font-family: sans-serif;
-  }
-</style>
+## 2. Loads & Boundary Conditions
+
+Diagram communicating how loads and boundary conditions were applied to the FEM model.
+We clamped the model on all sides at the top of the bit portion (as highlighted in yellow) and applied a load of 50 lbf to the yz face of the wrench handle.
+
+<div style="display: flex; justify-content: space-around; margin-top: 20px;">
+  <div style="width: 48%;">
+    <img src="{{ site.baseurl }}/assets/images/3a.png" alt="Displacement Constraint" style="width: 100%; border: 1px solid #eee;">
+  </div>
+  <div style="width: 48%;">
+    <img src="{{ site.baseurl }}/assets/images/3b.png" alt="Force Application" style="width: 100%; border: 1px solid #eee;">
+  </div>
+</div>
+
+---
+
+## 3. FEM Stress & Strain Results
+
+Normal strain contours (in the strain gauge direction) from FEM.
+The strain is roughly constant throughout the entire model except for around the connection between the clamped and unclamped portion of the bit.
+
+<div style="display: flex; justify-content: space-around; margin-bottom: 20px;">
+  <div style="width: 48%;">
+    <img src="{{ site.baseurl }}/assets/images/4a.png" alt="Preliminary Mesh" style="width: 100%;">
+  </div>
+  <div style="width: 48%;">
+    <img src="{{ site.baseurl }}/assets/images/4b.png" alt="Mesh Zoom" style="width: 100%;">
+  </div>
+</div>
+
+Contour plot of maximum principal stress from FEM.
+The wrench handle is half in tension and half in compression, this aligns with what we know about applying force to fixed beams. Furthermore, the maximum stress appears in the body that serves as the connection.
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  <div style="width: 48%; margin-bottom: 15px;">
+    <img src="{{ site.baseurl }}/assets/images/5b.png" alt="Global Stress" style="width: 100%;">
+  </div>
+  <div style="width: 48%; margin-bottom: 15px;">
+    <img src="{{ site.baseurl }}/assets/images/5c.png" alt="Max Stress Side View" style="width: 100%;">
+  </div>
+  <div style="width: 48%;">
+    <img src="{{ site.baseurl }}/assets/images/5a.png" alt="Head Stress Zoom" style="width: 100%;">
+  </div>
+  <div style="width: 48%;">
+    <img src="{{ site.baseurl }}/assets/images/6Materials.png" alt="Deflection Analysis" style="width: 100%;">
+  </div>
+</div>
+
+---
+
+## 4. Summary & Sensor Selection
+
+Summary of the results from FEM calculation showing maximum normal stress (anywhere), load point deflection, strains at the strain gauge locations:
+
+| Metric | Result |
+| :--- | :--- |
+| **Maximum Normal Stress** | 14213 psi |
+| **Strain at Strain Gauge location** | 9.8497x10⁻⁴ in/in (985 microstrain) |
+| **Deflection of load point** | 0.21262 in |
+
+The Torque wrench sensitivity in mV/V using strains from the FEM analysis is **0.985 mV/V**
+The hand calculations lead to a torque wrench sensitivity of greater than 1, which satisfies the problem prompt.
+
+**Strain gauge selection:**
+We selected the SGD-5/350-LY43 Linear strain gauge. This gauge has a carrier area of 9.8 x 5.2 mm² or 0.386 x 0.205in², meaning it will fit comfortably within the wrench handle. This is a linear pattern strain gauge.
+
+<div style="text-align: center; margin-top: 20px;">
+  <img src="{{ site.baseurl }}/assets/images/8Materials.png" alt="Strain Gauge" style="width: 30%; min-width: 150px;">
+</div>
