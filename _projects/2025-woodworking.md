@@ -3,7 +3,7 @@ layout: project
 title: Creative Projects
 description: 
 technologies: [Woodshop Tools]
-image: /assets/images/TableFront.jpg
+image: /assets/images/TableFront.png
 ---
 
 I have always been interested in designing and creating models. Starting with Legos, followed by metal or wood sculpture kits, I learned to follow increasingly complicated assembly instructions. Before long, I began designing my own models using cardboard as a medium. Shown below is a cardboard camera model that I designed and built.
