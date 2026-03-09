@@ -10,10 +10,6 @@ permalink: /cv/
 
 **Email:** [kam523@cornell.edu](mailto:kam523@cornell.edu) | | | **Phone:** +925 448 6208
 
----
-
-#### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
 
 ---
 
