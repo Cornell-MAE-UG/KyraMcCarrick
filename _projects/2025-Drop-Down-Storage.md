@@ -63,5 +63,5 @@ Check out the video below to see a demonstration of how the sliding and drop-dow
 
 
 <div style="text-align: center; margin: 30px 0;">
-    <iframe width="560" height="315" src="https://youtu.be/d_e4e76CVhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/d_e4e76CVhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></iframe>
 </div>

@@ -17,7 +17,7 @@ Our teardown and subsequent analysis required the application of several core fl
 </p>
 
 ### Video Presentation
-I was heavily involved in the video editing process to ensure our technical analysis was communicated clearly and engagingly. You can view our final project video below:
+I was responsible for the video editing process to ensure our technical analysis was communicated clearly. You can view our final project video below:
 
 <div style="text-align: center; margin: 30px 0;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/11J76z5qH6c?si=dJjyL5HEkluPkiAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></iframe>
