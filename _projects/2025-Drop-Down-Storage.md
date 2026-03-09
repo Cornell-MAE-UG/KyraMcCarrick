@@ -2,5 +2,5 @@
 layout: project
 title: Drop Down Storage Solution
 description: 
-image: /assets/images/garmin.jpg
+image: /assets/images/dropdown.jpg
 ---
