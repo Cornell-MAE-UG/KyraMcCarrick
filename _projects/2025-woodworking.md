@@ -11,27 +11,32 @@ I have always been interested in designing and creating models. Starting with Le
 ### Early Models & Prototyping
 I initially began designing my own models using cardboard and paper. It provided a highly accessible way to test shapes, structural integrity, and assemblies. Shown below is a collection of my prototypes, ranging from modular origami to a painted cardboard skateboard and a detailed space shuttle.
 
-<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 30px 0;">
-    <div style="width: 30%; min-width: 200px; text-align: center;">
-        <img src="{{ '/assets/images/ship.jpg' | relative_url }}" alt="Cardboard Space Shuttle" style="width: 100%; border-radius: 6px; border: 1px solid #eee; box-shadow: 2px 2px 6px rgba(0,0,0,0.05);">
-        <p style="font-size: 0.9em; color: #666; margin-top: 10px;"><em>Cardboard space shuttle model.</em></p>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 30px 0; align-items: flex-start;">
+    
+    <div style="flex: 2; min-width: 300px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+        <div style="text-align: center;">
+            <img src="{{ '/assets/images/ship.jpg' | relative_url }}" alt="Cardboard Space Shuttle" style="width: 100%; border-radius: 6px; border: 1px solid #eee; box-shadow: 2px 2px 6px rgba(0,0,0,0.05);">
+            <p style="font-size: 0.9em; color: #666; margin-top: 10px;"><em>Cardboard space shuttle.</em></p>
+        </div>
+        <div style="text-align: center;">
+            <img src="{{ '/assets/images/CardboardCamera.png' | relative_url }}" alt="Cardboard Camera Model" style="width: 100%; border-radius: 6px; border: 1px solid #eee; box-shadow: 2px 2px 6px rgba(0,0,0,0.05);">
+            <p style="font-size: 0.9em; color: #666; margin-top: 10px;"><em>Cardboard camera.</em></p>
+        </div>
+        <div style="text-align: center;">
+            <img src="{{ '/assets/images/flower.jpg' | relative_url }}" alt="Cardboard Flower" style="width: 100%; border-radius: 6px; border: 1px solid #eee; box-shadow: 2px 2px 6px rgba(0,0,0,0.05);">
+            <p style="font-size: 0.9em; color: #666; margin-top: 10px;"><em>Layered flower.</em></p>
+        </div>
+        <div style="text-align: center;">
+            <img src="{{ '/assets/images/origamiflower.jpg' | relative_url }}" alt="Origami Box Ring" style="width: 100%; border-radius: 6px; border: 1px solid #eee; box-shadow: 2px 2px 6px rgba(0,0,0,0.05);">
+            <p style="font-size: 0.9em; color: #666; margin-top: 10px;"><em>Modular origami ring.</em></p>
+        </div>
     </div>
-    <div style="width: 30%; min-width: 200px; text-align: center;">
+
+    <div style="flex: 1; min-width: 200px; text-align: center;">
         <img src="{{ '/assets/images/skateboard.jpg' | relative_url }}" alt="Painted Cardboard Skateboard" style="width: 100%; border-radius: 6px; border: 1px solid #eee; box-shadow: 2px 2px 6px rgba(0,0,0,0.05);">
         <p style="font-size: 0.9em; color: #666; margin-top: 10px;"><em>Painted cardboard skateboard.</em></p>
     </div>
-    <div style="width: 30%; min-width: 200px; text-align: center;">
-        <img src="{{ '/assets/images/CardboardCamera.png' | relative_url }}" alt="Cardboard Camera Model" style="width: 100%; border-radius: 6px; border: 1px solid #eee; box-shadow: 2px 2px 6px rgba(0,0,0,0.05);">
-        <p style="font-size: 0.9em; color: #666; margin-top: 10px;"><em>Custom cardboard camera.</em></p>
-    </div>
-    <div style="width: 30%; min-width: 200px; text-align: center;">
-        <img src="{{ '/assets/images/flower.jpg' | relative_url }}" alt="Corrugated Cardboard Flower" style="width: 100%; border-radius: 6px; border: 1px solid #eee; box-shadow: 2px 2px 6px rgba(0,0,0,0.05);">
-        <p style="font-size: 0.9em; color: #666; margin-top: 10px;"><em>Layered corrugated cardboard flower.</em></p>
-    </div>
-    <div style="width: 30%; min-width: 200px; text-align: center;">
-        <img src="{{ '/assets/images/origamiflower.jpg' | relative_url }}" alt="Modular Origami Ring" style="width: 100%; border-radius: 6px; border: 1px solid #eee; box-shadow: 2px 2px 6px rgba(0,0,0,0.05);">
-        <p style="font-size: 0.9em; color: #666; margin-top: 10px;"><em>Modular origami ring assembly.</em></p>
-    </div>
+
 </div>
 
 ### Small-Scale Woodworking & Joinery
@@ -40,11 +45,11 @@ More recently, I have applied these design and assembly skills to the functional
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 30px 0;">
     <div style="width: 45%; min-width: 300px; text-align: center;">
         <img src="{{ '/assets/images/SailboatSide.jpg' | relative_url }}" alt="Sailboat Model Side View" style="width: 100%; border-radius: 6px; border: 1px solid #eee; box-shadow: 2px 2px 6px rgba(0,0,0,0.05);">
-        <p style="font-size: 0.9em; color: #666; margin-top: 10px;"><em>Sailboat model side profile.</em></p>
+        <p style="font-size: 0.9em; color: #666; margin-top: 10px;"><em>Sailboat model angled view.</em></p>
     </div>
     <div style="width: 45%; min-width: 300px; text-align: center;">
         <img src="{{ '/assets/images/SailboatSide2.jpg' | relative_url }}" alt="Sailboat Model Angled View" style="width: 100%; border-radius: 6px; border: 1px solid #eee; box-shadow: 2px 2px 6px rgba(0,0,0,0.05);">
-        <p style="font-size: 0.9em; color: #666; margin-top: 10px;"><em>Angled view detailing the hull assembly.</em></p>
+        <p style="font-size: 0.9em; color: #666; margin-top: 10px;"><em>Side View.</em></p>
     </div>
 </div>
 
