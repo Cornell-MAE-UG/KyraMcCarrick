@@ -17,8 +17,8 @@ From this assignment I learned about fin array analysis, resistance networks, as
     <p>This problem involved analyzing a cylindrical pin fin and a 5x5 fin array to determine temperature distribution, fin efficiency, and overall thermal resistance. The final part of the problem applied these concepts to evaluate how much a heat sink reduces the operating temperature of a thin film heater using a thermal resistance network.</p>
     
     <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
-        <img src="/assets/images/p1p1.png" alt="Problem 1 Statement Parts A-E" style="width: 45%; border: 1px solid #ddd; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);">
-        <img src="/assets/images/p1p2.png" alt="Problem 1 Statement Part F" style="width: 45%; border: 1px solid #ddd; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);">
+       <img src="{{ '/assets/images/p1p1.png' | relative_url }}" alt="Problem 1 Statement Parts A-E" style="width: 45%; border: 1px solid #ddd; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);">
+        <img src="{{ '/assets/images/p1p2.png' | relative_url }}" alt="Problem 1 Statement Part F" style="width: 45%; border: 1px solid #ddd; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);">
     </div>
 </div>
 
@@ -39,7 +39,7 @@ From this assignment I learned about fin array analysis, resistance networks, as
     <p>This problem focused on a transient heat transfer scenario where a submerged wire experienced sudden internal Joule heating. By applying the lumped capacitance method, I derived an expression for the wire's temperature over time to calculate exactly how long it would take to reach within 5°C of its steady-state temperature.</p>
     
     <div style="text-align: center; margin-top: 20px;">
-        <img src="/assets/images/p2.png" alt="Problem 2 Statement" style="width: 90%; max-width: 800px; border: 1px solid #ddd; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);">
+        <img src="{{ '/assets/images/p2.png' | relative_url }}" alt="Problem 2 Statement" style="width: 90%; max-width: 800px; border: 1px solid #ddd; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);">
     </div>
 </div>
 
