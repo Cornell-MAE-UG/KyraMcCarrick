@@ -2,7 +2,6 @@
 layout: project
 title: 2D Sailboat Control System
 description: LQR control system for a sailboat
-technologies: [MATLAB, System Dynamics, LQR]
 image: /assets/images/sailboattrajectory.jpg
 ---
 

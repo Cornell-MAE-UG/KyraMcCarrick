@@ -2,7 +2,6 @@
 layout: project
 title: Torque Wrench Design
 description: FEA Analysis of a titanium torque wrench using ANSYS.
-technologies: [ANSYS, Materials Science, Statics]
 image: assets/images/3b.png
 ---
 

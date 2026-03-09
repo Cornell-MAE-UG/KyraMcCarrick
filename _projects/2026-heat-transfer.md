@@ -2,7 +2,6 @@
 layout: project
 title: Heat Transfer & Thermal Analysis
 description: Applying thermal resistance networks and lumped capacitance methods to evaluate heat sinks and transient systems.
-technologies: [Fin Array Analysis, Thermal Resistance Networks, Lumped Capacitance Method]
 image: /assets/images/HeatTransfer.jpg
 ---
 

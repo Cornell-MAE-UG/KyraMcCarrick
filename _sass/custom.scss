@@ -131,53 +131,66 @@ footer {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* --- PORTFOLIO MASONRY GALLERY --- */
 
 .gallery-container {
-  display: flex;
-  justify-content: center;
-  margin: auto;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 
 .project-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px;
-  padding: 20px;
-  margin: 0 auto;
-  max-width: 100%;
+  /* This creates the masonry effect */
+  column-count: 3;
+  column-gap: 30px;
+  width: 100%;
+}
+
+/* Responsive design: drop to 2 columns on smaller screens, 1 on mobile */
+@media (max-width: 900px) {
+  .project-gallery {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .project-gallery {
+    column-count: 1;
+  }
 }
 
 .gallery-item {
-  overflow: hidden;
+  break-inside: avoid; /* Prevents a single card from splitting across two columns */
+  margin-bottom: 35px; /* Spacing below each project */
   text-align: center;
   transition: transform 0.3s ease;
-  max-width: 250px; 
-  max-height: 300px; 
 }
 
 .gallery-item img {
   width: 100%;
-  height: 85%;
+  height: auto; /* This completely removes the severe cropping */
   display: block;
-  object-fit: cover;
-  object-position: center;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
 }
 
 .gallery-item p {
-  margin: 13px 0;
-  font-size: .9rem;
+  margin: 15px 0 0 0;
+  font-size: 1rem;
+  font-weight: 600;
   color: $text-color;
+  line-height: 1.4;
 }
 
 .gallery-item a {
   text-decoration: none;
+  display: block; /* Ensures the whole block is clickable */
 }
 
+/* Changed from scale(1.05) to a smooth upward float to prevent masonry overlapping */
 .gallery-item:hover {
-  transform: scale(1.05); 
+  transform: translateY(-5px); 
 }
 
 .project-image {

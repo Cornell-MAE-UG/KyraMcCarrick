@@ -18,19 +18,22 @@ As a part of my Intro to Mechanical Design course, I reverse-engineered and crea
 ### Phase 1: Reference & Dimensioning
 The first step was to carefully analyze the physical watch. Using digital calipers, I took precise measurements of the watch face, strap, latch, and retaining clips. I translated these measurements into hand-drawn technical sketches to serve as a blueprint before opening any software.
 
-<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 30px 0;">
-    <div style="width: 30%; min-width: 200px; text-align: center;">
-        <img src="{{ '/assets/images/GarminBefore.jpg' | relative_url }}" alt="Real Garmin Watch Top View" style="width: 100%; border-radius: 6px; border: 1px solid #eee; box-shadow: 2px 2px 6px rgba(0,0,0,0.05);">
-        <p style="font-size: 0.9em; color: #666; margin-top: 10px;"><em>The physical watch.</em></p>
-    </div>
-    <div style="width: 30%; min-width: 200px; text-align: center;">
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 30px;">
+    <div style="width: 45%; min-width: 300px; text-align: center;">
         <img src="{{ '/assets/images/Watch.jpg' | relative_url }}" alt="Real Garmin Watch Angled View" style="width: 100%; border-radius: 6px; border: 1px solid #eee; box-shadow: 2px 2px 6px rgba(0,0,0,0.05);">
         <p style="font-size: 0.9em; color: #666; margin-top: 10px;"><em>Side profile reference.</em></p>
     </div>
-    <div style="width: 30%; min-width: 200px; text-align: center;">
+    <div style="width: 45%; min-width: 300px; text-align: center;">
         <img src="{{ '/assets/images/GarminCADSketches.jpg' | relative_url }}" alt="Hand drawn dimension sketches" style="width: 100%; border-radius: 6px; border: 1px solid #eee; box-shadow: 2px 2px 6px rgba(0,0,0,0.05);">
         <p style="font-size: 0.9em; color: #666; margin-top: 10px;"><em>Initial hand-drawn dimensioning.</em></p>
     </div>
+</div>
+
+<div style="text-align: center; margin-bottom: 30px; margin-top: 30px;">
+    <div style="display: inline-block; width: 90%; max-width: 800px; height: 250px; position: relative;">
+        <img src="{{ '/assets/images/GarminBefore.jpg' | relative_url }}" alt="Real Garmin Watch Top View (Sideways)" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(90deg); max-height: 100%; width: auto; display: block; border-radius: 6px; border: 1px solid #eee; box-shadow: 2px 2px 6px rgba(0,0,0,0.05);">
+    </div>
+    <p style="font-size: 0.9em; color: #666; margin-top: 10px;"><em>The physical watch, top-down view (oriented sideways for cleaner display).</em></p>
 </div>
 
 ### Phase 2: Modeling & Assembly in Fusion360

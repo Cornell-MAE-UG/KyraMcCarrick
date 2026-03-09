@@ -2,7 +2,6 @@
 layout: project
 title: Leaf Blower Dissection
 description: Fluid mechanics analysis and reverse-engineering of an everyday device.
-technologies: [Fluid Mechanics, Pump Analysis, Video Editing]
 image: /assets/images/Leafblower.jpg
 ---
 

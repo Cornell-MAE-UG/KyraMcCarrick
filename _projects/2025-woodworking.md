@@ -2,7 +2,6 @@
 layout: project
 title: Creative Projects & Woodworking
 description: A progression of design and assembly skills, moving from cardboard modeling to functional, fine woodworking.
-technologies: [Woodworking, Cardboard Prototyping, Joinery, Wood Finishing]
 image: /assets/images/TableFront.png
 ---
 
