@@ -39,6 +39,14 @@ I initially began designing my own models using cardboard and paper. It provided
 
 </div>
 
+### Marble Run
+I went through the design process for a marble run. Building one section at a time, starting with the fish ladder that brought the marbles up. I then created a three way split mechanism that sorted the first marble to the first racing slot, the second to the second racing slot, and the third to the trigger plate that started the race. The mechanism is automatically reset by the third marble. I then created the obstacles, and finally, the LED finish light system. Since the marbles I used are metal, I put two unconnected pieces of aluminum foil with a voltage difference connected to LEDs, whichever marble crossed first completed the circuit would light up its LED.
+Watch the marble run go below:
+
+<div style="text-align: center; margin: 30px 0;">
+    <iframe width="315" height="560" src="https://www.youtube.com/embed/2guLNL-GiYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></iframe>
+</div>
+
 ### Small-Scale Woodworking & Joinery
 More recently, I have applied these design and assembly skills to the functional material of wood. One of my dad's dreams is to sail around the world, so for his birthday, I designed and built him a small wooden sailboat model.
 
