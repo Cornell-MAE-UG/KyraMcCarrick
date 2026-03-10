@@ -12,7 +12,7 @@ image: assets/images/3b.png
 
 ## 1. Model & Material Properties
 
-Image of CAD model:
+Image of CAD Drawing:
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
   <img src="{{ site.baseurl }}/assets/images/CADMeasurements.png" alt="CAD Drawing" style="width: 90%; border: 1px solid #ccc;">
 </div>

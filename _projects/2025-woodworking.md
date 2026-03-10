@@ -9,7 +9,7 @@ image: /assets/images/TableFront.png
 I have always been interested in designing and creating models. Starting with Legos, followed by metal or wood sculpture kits, I learned to follow increasingly complicated assembly instructions. Before long, I began designing my own models from scratch, applying these structural concepts to new mediums. 
 
 ### Early Models & Prototyping
-I initially began designing my own models using cardboard and paper. It provided a highly accessible way to test shapes, structural integrity, and assemblies. Shown below is a collection of my prototypes, ranging from modular origami to a painted cardboard skateboard and a detailed space shuttle.
+I initially began designing my own models using cardboard and paper. It provided a highly accessible way to test shapes, structural integrity, and assemblies. Shown below is a collection of my prototypes, ranging from origami to a painted cardboard skateboard and a detailed space shuttle.
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 30px 0; align-items: flex-start;">
     
@@ -28,7 +28,7 @@ I initially began designing my own models using cardboard and paper. It provided
         </div>
         <div style="text-align: center;">
             <img src="{{ '/assets/images/origamiflower.jpg' | relative_url }}" alt="Origami Box Ring" style="width: 100%; border-radius: 6px; border: 1px solid #eee; box-shadow: 2px 2px 6px rgba(0,0,0,0.05);">
-            <p style="font-size: 0.9em; color: #666; margin-top: 10px;"><em>Modular origami ring.</em></p>
+            <p style="font-size: 0.9em; color: #666; margin-top: 10px;"><em>Origami box ring.</em></p>
         </div>
     </div>
 
@@ -40,7 +40,7 @@ I initially began designing my own models using cardboard and paper. It provided
 </div>
 
 ### Marble Run
-I went through the design process for a marble run. Building one section at a time, starting with the fish ladder that brought the marbles up. I then created a three way split mechanism that sorted the first marble to the first racing slot, the second to the second racing slot, and the third to the trigger plate that started the race. The mechanism is automatically reset by the third marble. I then created the obstacles, and finally, the LED finish light system. Since the marbles I used are metal, I put two unconnected pieces of aluminum foil with a voltage difference connected to LEDs, whichever marble crossed first completed the circuit would light up its LED.
+I went through the design process for a marble run. Building one section at a time, starting with the fish ladder that brought the marbles up. I then created a three way split mechanism that sorted the first marble to the first racing slot, the second to the second racing slot, and the third to the trigger plate that started the race. The mechanism is automatically reset by the third marble. I then created the obstacles, and finally, the LED finish light system. Since the marbles I used are metal, I put two unconnected pieces of aluminum foil with a voltage difference connected to LEDs, whichever marble crossed first completed the circuit would light up its LED. I used an arduino to link up the motor that drives the wheel and fish ladder to the start trigger and finish lights.
 Watch the marble run go below:
 
 <div style="text-align: center; margin: 30px 0;">
@@ -61,7 +61,7 @@ More recently, I have applied these design and assembly skills to the functional
     </div>
 </div>
 
-I enjoy creating projects that not only serve an aesthetic purpose but are also highly useful in my day-to-day life. Expanding into functional pieces, I constructed a small bookshelf using hand tools and dovetail joinery. 
+I enjoy creating projects that not only serve an aesthetic purpose but are also highly useful in my day-to-day life. Expanding into functional pieces, I constructed a mini bookshelf using hand tools and dovetail joinery. 
 
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 30px 0;">
     <div style="width: 45%; min-width: 300px; text-align: center;">
