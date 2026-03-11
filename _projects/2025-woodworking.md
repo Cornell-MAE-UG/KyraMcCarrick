@@ -74,8 +74,8 @@ I enjoy creating projects that not only serve an aesthetic purpose but are also 
     </div>
 </div>
 
-### Furniture Construction: The Cherry Wood Table
-To expand my capabilities, I took a woodworking class over the summer where I learned technical skills and safety procedures for basic woodshop machines. Over the course of a week, I built a table from scratch following specific design specs. 
+### Cherry Wood Table
+I took a woodworking class over the summer where I learned technical skills and safety procedures for basic woodshop machines. Over the course of a week, I built a table from scratch following specific design specs. 
 
 From long planks of rough cherry wood, we marked off usable sections and cut workable pieces using the chop saw. We then moved to the jointer and planer, where we turned the warped wood into planks with right angles and parallel faces. 
 
