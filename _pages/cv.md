@@ -50,7 +50,7 @@ permalink: /cv/
 ---
 
 #### Work Experience
-- **Oakland Strokes - Intern**  
+- **Oakland Strokes - Youth Rowing Coach**  
   June, 2024 - August, 2024
   - Responsibility 1  
   - Responsibility 2  
