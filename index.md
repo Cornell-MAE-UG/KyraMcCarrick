@@ -6,7 +6,7 @@ title: Kyra McCarrick
 ## About Me
 
 
-![Profile Picture]({{ "assets/images/profile.png" | relative_url }}){: class="KyraMcCarrickHeadShot"}
+![Profile Picture]({{ "assets/images/KyraMcCarrickHeadshot.jpg" | relative_url }}){: class="profile-image"}
 
  
 Hi, I’m Kyra McCarrick!
