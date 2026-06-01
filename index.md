@@ -20,4 +20,4 @@ Outside of class, rowing has taught me discipline and leadership. Every day I wo
 I am a motivator by action. I am committed to consistency, and prioritize the discipline required to perform regardless of circumstance whether in rowing or projects. People like working with me because I inspire a culture of resilience while keeping things upbeat and collaborative. I believe in the process, holding myself to a high standard, learning from each step, and seeing projects through with excellence.
 
 
-Take a look at **<a href="{{ "/projects/" | relative_url }}">my projects</a>** and **<a href="{{ "/cv/" | relative_url }}">CV</a>.**
+Take a look at **<a href="{{ "/projects/" | relative_url }}">my projects</a>.** CV available upon request. 
