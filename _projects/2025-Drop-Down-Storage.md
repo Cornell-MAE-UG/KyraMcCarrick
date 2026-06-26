@@ -89,7 +89,7 @@ Our first full-sized prototype was intended to be laser-cut from marine-grade pl
 
 For our next iteration, we switched to 1/8" and 1/4" black acrylic to ensure smooth, precise laser cutting. To further improve the mechanism beyond standard hinges, we utilized T-shaped alignment pins slotted into custom 3D-printed fasteners. This allowed the plates to stack smoothly and securely without taking up vertical space.
 
-### Total Bill of Materials
+### Bill of Materials
 Below is the comprehensive Bill of Materials detailing the sourced hardware and raw materials required across all prototypes.
 
 <div style="overflow-x: auto; margin: 30px 0; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">

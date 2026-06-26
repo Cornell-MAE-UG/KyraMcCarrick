@@ -26,7 +26,7 @@ From long planks of rough cherry wood, we marked off usable sections and cut wor
     </div>
 </div>
 
-### Structural Design & Joinery
+### Joinery
 We used mortise and tenon joinery for the legs. This required a very small margin of error to achieve the perfect fit needed for strong glue adhesion. The process involved making a jig for the table saw and using the mortise machine. You can always cut away more wood, but once it's gone, it's very hard to put it back. I learned this the hard way, and ended up having to remake one of the legs.
 
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 30px 0;">
