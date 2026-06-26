@@ -3,13 +3,11 @@ layout: default
 title: Kyra McCarrick
 ---
 
-## About Me
+## Hi, I'm Kyra McCarrick!
 
 
 ![Profile Picture]({{ "assets/images/KyraMcCarrickHeadshot.jpg" | relative_url }}){: class="profile-image"}
 
- 
-Hi, I’m Kyra McCarrick!
 
 **I am a Junior pursuing a B.S. in Mechanical Engineering at Cornell University, and a Division 1 varsity rower.**
 
@@ -20,4 +18,19 @@ Outside of class, rowing has taught me discipline and leadership. Every day I wo
 I am a motivator by action. I am committed to consistency, and prioritize the discipline required to perform regardless of circumstance whether in rowing or projects. People like working with me because I inspire a culture of resilience while keeping things upbeat and collaborative. I believe in the process, holding myself to a high standard, learning from each step, and seeing projects through with excellence.
 
 
-Take a look at **<a href="{{ "/projects/" | relative_url }}">my projects</a>.** CV available upon request. 
+Take a look at **<a href="{{ "/#projects" | relative_url }}">my projects</a>.** CV available upon request.
+
+<h2 id="projects" style="margin-top: 60px; margin-bottom: 30px; text-align: center;">My Projects</h2>
+
+<div class="gallery-container">
+  <div class="project-gallery">
+    {% for project in site.projects %}
+    <div class="gallery-item">
+      <a href="{{ project.url | relative_url }}">
+        <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+        <p>{{ project.title }}</p>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>
