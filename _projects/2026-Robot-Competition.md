@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Expanding Cube-Collection Robot
+title: Cube-Collecting Robot
 description: An autonomous robot featuring a passive mechanical expansion system and sensor-based navigation to efficiently collect cubes within competition constraints.
 technologies: [Arduino, Sensor Integration, Mechanism Design, Rapid Prototyping, Autonomous Navigation]
 image: /assets/images/robot_final.jpg
@@ -59,7 +59,7 @@ Our competition strategy was coded to follow a specific flowchart:
     </div>
 </div>
 
-### Total Bill of Materials
+### Bill of Materials
 By utilizing cardboard and basic hardware, we kept our mechanical prototyping costs extremely low. Below is the final Bill of Materials for the structural components.
 
 <div style="overflow-x: auto; margin: 30px 0; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">

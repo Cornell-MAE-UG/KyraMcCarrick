@@ -3,6 +3,7 @@ layout: project
 title: 2D Sailboat Control System
 description: LQR control system for a sailboat
 image: /assets/images/sailboattrajectory.jpg
+published: false
 ---
 
 

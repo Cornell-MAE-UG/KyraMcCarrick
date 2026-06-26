@@ -3,6 +3,7 @@ layout: project
 title: Heat Transfer & Thermal Analysis
 description: Applying thermal resistance networks and lumped capacitance methods to evaluate heat sinks and transient systems.
 image: /assets/images/HeatTransfer.jpg
+published: false
 ---
 
 From this assignment I learned about fin array analysis, resistance networks, as well as the lumped capacitance method for transient heat transfer. I have always wondered about why heat sinks are designed the way that they are, and this homework enabled me to see just how much of an impact they have on heat dissipation and management. Moreover, using the electrical analogy to accurately model heat transfer through and between different surfaces made a murky concept much easier to visualize and conceptualize.
