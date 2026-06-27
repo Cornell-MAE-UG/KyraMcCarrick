@@ -217,4 +217,36 @@ footer {
   max-width: 1100px; /* Increasing this from 1000px gives the cards more breathing room */
 }
 
+/* --- CUSTOM HERO BANNER --- */
 
+/* Controls the main header container */
+.hero-header {
+  background: transparent; /* Removes the solid color */
+  position: relative;
+  min-height: 250px;
+  overflow: hidden; 
+  border-bottom: none;
+  z-index: 1;
+}
+
+/* Creates a background layer just for the photo so the text doesn't blur */
+.hero-header::before {
+  content: "";
+  position: absolute;
+  top: -15px; 
+  left: -15px; 
+  right: -15px; 
+  bottom: -15px;
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-position: center 60%;
+  background-repeat: no-repeat;
+  filter: blur(3px) brightness(1); /* Adjust the blur and brightness here */
+  z-index: -1; 
+}
+
+/* Ensures your navigation sits cleanly on top */
+.hero-header .navbar {
+  position: relative;
+  z-index: 2;
+}

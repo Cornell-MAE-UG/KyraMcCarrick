@@ -11,20 +11,20 @@
 
 <body>
 
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark text-white";>
+<header {% if page.url == '/' %}class="hero-header" style="--bg-image: url({{ '/assets/images/henley.jpg' | relative_url }});"{% endif %}>
+    <nav class="navbar navbar-expand-lg navbar-dark text-white">
       <div class="container-fluid">
-        <a class="navbar-brand" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+        <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
           <span class="navbar-toggler-icon"></span>
         </button>  
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ "/" | relative_url }}">Home</a>
+              <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ "/" | relative_url }}#projects">Projects</a>
+              <a class="nav-link" href="{{ '/#projects' | relative_url }}">Projects</a>
             </li> 
           </ul>
         </div>
