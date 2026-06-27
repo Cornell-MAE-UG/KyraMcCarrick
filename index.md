@@ -36,7 +36,7 @@ I am a motivator by action. I am committed to consistency, and prioritize the di
     <span style="color: #adb5bd;">&bull;</span>
     
     <!-- Rowing Page Link -->
-    <a href="{% link _projects/2026-Rowing.md %}" style="text-decoration: none; color: #0056b3; font-weight: 600;">Rowing</a>
+    <a href="{% link _projects/2026-Rowing.md/ %}" style="text-decoration: none; color: #0056b3; font-weight: 600;">Rowing</a>
     
     <span style="color: #adb5bd;">&bull;</span>
     
