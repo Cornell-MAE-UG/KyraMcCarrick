@@ -9,7 +9,7 @@ title: Kyra McCarrick
 ![Profile Picture]({{ "assets/images/KyraMcCarrickHeadshot.jpg" | relative_url }}){: class="profile-image"}
 
 
-**I am a Junior pursuing a B.S. in Mechanical Engineering at Cornell University, and a [Division 1 varsity rower]({% link _projects/2026-Rowing.md/ %}).**
+**I am a Junior pursuing a B.S. in Mechanical Engineering at Cornell University, and a [Division 1 varsity rower]({{ '/projects/2026-Rowing/' | relative_url }}).**
 
 My academic foundation in mechanical engineering has equipped me with a rigorous, analytical approach to problem-solving.
 
@@ -36,7 +36,7 @@ I am a motivator by action. I am committed to consistency, and prioritize the di
     <span style="color: #adb5bd;">&bull;</span>
     
     <!-- Rowing Page Link -->
-    <a href="{% link _projects/2026-Rowing.md/ %}" style="text-decoration: none; color: #0056b3; font-weight: 600;">Rowing</a>
+    <<a href="{{ '/projects/2026-Rowing/' | relative_url }}" style="text-decoration: none; color: #0056b3; font-weight: 600;">Rowing</a>
     
     <span style="color: #adb5bd;">&bull;</span>
     
