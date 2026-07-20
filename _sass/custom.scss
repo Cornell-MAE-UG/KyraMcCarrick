@@ -16,6 +16,10 @@ $text-color: #333;
   $primary-color: #925959;
   $background-color: #f6f1e0;
   $text-color: #1e0101;
+} @else if $color_scheme == 'kyra' {
+  $primary-color: #4c769c;
+  $background-color: #f7f8fa;
+  $text-color: #333;
 }
 
 
