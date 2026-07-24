@@ -162,7 +162,20 @@ This is the opposite of some other crankset designs, which give you the lower ge
 
 <!-- ### Brakes Side Note --> 
 
-Now I'm just waiting for a nice evening to get a good photo of the completed bike.
+
+### Final Pictures
+
+<div style="display: flex; justify-content: center; gap: 15px; margin: 20px 0;">
+  <figure style="width: 42%; margin: 0; text-align: center;">
+    <img src="{{ '/assets/images/Sanwa_Capitol.jpg' | relative_url }}" alt="The final Sanwa build outside the Texas state capitol building." style="width: 100%; border-radius: 6px; box-shadow: 2px 2px 6px rgba(0,0,0,0.1);">
+    <figcaption style="font-size: 0.9em; color: #666; margin-top: 8px;"><em>The final Sanwa build outside the Texas state capitol building.</em></figcaption>
+  </figure>
+
+  <figure style="width: 58%; margin: 0; text-align: center;">
+    <img src="{{ '/assets/images/Sanwa_City.jpg' | relative_url }}" alt="The final Sanwa build in Zilker Park." style="width: 100%; border-radius: 6px; box-shadow: 2px 2px 6px rgba(0,0,0,0.1);">
+    <figcaption style="font-size: 0.9em; color: #666; margin-top: 8px;"><em>The final Sanwa build in Zilker Park.</em></figcaption>
+  </figure>
+</div>
 
 ### Bill of Materials
 With some help from very friendly volunteers and a great workshop, I did all of the restoration myself and was able to reuse many old parts, staying within budget. Below is the final Bill of Materials for the new and used components.
